@@ -1,0 +1,45 @@
+{
+  "name": "react-noir-cursor",
+  "version": "1.0.0",
+  "description": "A sleek, customizable cursor component with hover effects for React applications",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "microbundle --jsx React.createElement",
+    "dev": "microbundle watch --jsx React.createElement",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.8"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "cursor",
+    "custom-cursor",
+    "ui",
+    "animation",
+    "noir-theme"
+  ],
+  "author": "Arhaan Siddiquee <siddiqueearhaan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arhaan-Siddiquee/react-noir-cursor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arhaan-Siddiquee/react-noir-cursor/issues"
+  },
+  "homepage": "https://github.com/Arhaan-Siddiquee/react-noir-cursor/#readme"
+}
