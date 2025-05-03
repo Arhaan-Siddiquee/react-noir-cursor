@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { Fragment, useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 
 const CustomCursor = styled.div`
@@ -59,7 +59,7 @@ const Cursor = ({
   }, [mousePosition]);
   
   return (
-    <>
+    <Fragment>
       <CustomCursor
         ref={cursorRef}
         size={isHovering ? hoverSize : size}
@@ -83,7 +83,7 @@ const Cursor = ({
           </div>
         )}
       </CustomCursor>
-    </>
+    </Fragment>
   );
 };
 

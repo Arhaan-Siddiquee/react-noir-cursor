@@ -1,6 +1,6 @@
 {
   "name": "react-noir-cursor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sleek, customizable cursor component with hover effects for React applications",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
